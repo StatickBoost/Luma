@@ -1,1 +1,2 @@
 *.json -text
+*.dll binary
