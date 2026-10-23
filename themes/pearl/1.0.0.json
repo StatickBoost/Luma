@@ -1,0 +1,23 @@
+{
+  "format": "Luma.Theme",
+  "schema": 1,
+  "id": "pearl",
+  "name": "\u0416\u0435\u043C\u0447\u0443\u0433",
+  "version": "1.0.0",
+  "publisher": "StatickBoost",
+  "base": "light",
+  "palette": {
+    "background": "#F5F3EF",
+    "surface": "#FFFDFC",
+    "sidebar": "#EBE8E2",
+    "text": "#262B33",
+    "muted": "#555F6E",
+    "accent": "#3563AF",
+    "onAccent": "#FFFFFF",
+    "border": "#CCC8C0",
+    "hover": "#E8E5DF",
+    "selection": "#DBE5F5",
+    "popup": "#FFFFFF"
+  },
+  "backdrop": null
+}

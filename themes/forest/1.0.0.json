@@ -1,0 +1,23 @@
+{
+  "format": "Luma.Theme",
+  "schema": 1,
+  "id": "forest",
+  "name": "\u041B\u0435\u0441",
+  "version": "1.0.0",
+  "publisher": "StatickBoost",
+  "base": "dark",
+  "palette": {
+    "background": "#0C1714",
+    "surface": "#14251F",
+    "sidebar": "#101F19",
+    "text": "#EDF8F0",
+    "muted": "#A0BEAE",
+    "accent": "#86D8AA",
+    "onAccent": "#0C2B1B",
+    "border": "#354E40",
+    "hover": "#1D372A",
+    "selection": "#254333",
+    "popup": "#13271D"
+  },
+  "backdrop": null
+}

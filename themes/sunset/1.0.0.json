@@ -1,0 +1,29 @@
+{
+  "format": "Luma.Theme",
+  "schema": 1,
+  "id": "sunset",
+  "name": "\u0417\u0430\u043A\u0430\u0442",
+  "version": "1.0.0",
+  "publisher": "StatickBoost",
+  "base": "glass",
+  "palette": {
+    "background": "#180E14",
+    "surface": "#2B1B23",
+    "sidebar": "#1C101A",
+    "text": "#FFF4EE",
+    "muted": "#DCC1B8",
+    "accent": "#FFBD8B",
+    "onAccent": "#462314",
+    "border": "#654552",
+    "hover": "#432A32",
+    "selection": "#4D3038",
+    "popup": "#281923"
+  },
+  "backdrop": {
+    "top": "#100810",
+    "bottom": "#29111D",
+    "glow1": "#783D25",
+    "glow2": "#6F254B",
+    "glow3": "#3A235E"
+  }
+}

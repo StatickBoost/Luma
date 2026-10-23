@@ -1,0 +1,29 @@
+{
+  "format": "Luma.Theme",
+  "schema": 1,
+  "id": "aurora",
+  "name": "\u0421\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0441\u0438\u044F\u043D\u0438\u0435",
+  "version": "1.0.0",
+  "publisher": "StatickBoost",
+  "base": "glass",
+  "palette": {
+    "background": "#071218",
+    "surface": "#11252B",
+    "sidebar": "#0A1B23",
+    "text": "#ECFCFA",
+    "muted": "#AACCCA",
+    "accent": "#76E4CE",
+    "onAccent": "#06352B",
+    "border": "#365C61",
+    "hover": "#1D3C43",
+    "selection": "#24494F",
+    "popup": "#10252D"
+  },
+  "backdrop": {
+    "top": "#030A12",
+    "bottom": "#071E23",
+    "glow1": "#075C50",
+    "glow2": "#154163",
+    "glow3": "#38205F"
+  }
+}

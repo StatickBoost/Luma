@@ -1,0 +1,23 @@
+{
+  "format": "Luma.Theme",
+  "schema": 1,
+  "id": "sakura",
+  "name": "\u0421\u0430\u043A\u0443\u0440\u0430",
+  "version": "1.0.0",
+  "publisher": "StatickBoost",
+  "base": "light",
+  "palette": {
+    "background": "#FCF2F5",
+    "surface": "#FFFBFD",
+    "sidebar": "#F4E3EB",
+    "text": "#3F2636",
+    "muted": "#654557",
+    "accent": "#A53670",
+    "onAccent": "#FFFFFF",
+    "border": "#DAB8CA",
+    "hover": "#F4DDE9",
+    "selection": "#F1CEE0",
+    "popup": "#FFF9FC"
+  },
+  "backdrop": null
+}

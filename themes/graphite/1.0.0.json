@@ -1,0 +1,23 @@
+{
+  "format": "Luma.Theme",
+  "schema": 1,
+  "id": "graphite",
+  "name": "\u0413\u0440\u0430\u0444\u0438\u0442",
+  "version": "1.0.0",
+  "publisher": "StatickBoost",
+  "base": "dark",
+  "palette": {
+    "background": "#101216",
+    "surface": "#1B1E24",
+    "sidebar": "#14171C",
+    "text": "#F5F7FA",
+    "muted": "#AEB8C7",
+    "accent": "#92BCFF",
+    "onAccent": "#10223E",
+    "border": "#3D4552",
+    "hover": "#272E38",
+    "selection": "#25364C",
+    "popup": "#181D25"
+  },
+  "backdrop": null
+}
