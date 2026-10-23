@@ -1,14 +1,14 @@
-# Luma Extensions — StatickBoost
+# Luma Расширения — StatickBoost
 
-This branch contains the signed theme and module catalogs for Luma.
+Эта ветка содержит подписанные каталоги тем и модулей для Luma.
 
-- `catalog.json` — signed theme catalog, supported from Luma 0.5.2.
-- `themes/<id>/<version>.json` — downloadable theme packages.
-- `modules.json` — signed module catalog, supported from Luma 0.5.4.
-- `modules/<id>/<version>/Luma.Module.*.dll` — actual executable modules, downloaded separately from the application installer.
+- `catalog.json` — подписанный каталог тем, поддерживаемый начиная с версии Luma 0.5.2.
+- `themes/<id>/<version>.json` — загружаемые тематические пакеты.
+- `modules.json` — подписанный каталог модулей, поддерживаемый начиная с версии Luma 0.5.4.
+- `modules/<id>/<version>/Luma.Module.*.dll` — реальные исполняемые модули, загружаемые отдельно из установщика приложения.
 
-In Luma, open Extensions, choose a module and download it. A Modules button appears on the right after the first installation. It opens the installed tools. Installed modules can be used offline and can be updated, disabled or removed through the catalog.
+В Luma откройте "Расширения", выберите модуль и загрузите его. После первой установки справа появляется кнопка "Модули". Она открывает установленные инструменты. Установленные модули можно использовать в автономном режиме, а также обновлять, отключать или удалять их через каталог.
 
-The catalogs are signed by StatickBoost. Luma verifies publisher signatures, package size and SHA-256 before installing and again before loading code. Dependencies and signing keys are not distributed in this branch. Do not edit signed JSON files manually; regenerate catalogs with the original signing key.
+Каталоги подписываются StatickBoost. Luma проверяет подписи издателя, размер пакета и SHA-256 перед установкой и еще раз перед загрузкой кода. Зависимости и ключи подписи в этой ветке не распространяются. Не редактируйте подписанные JSON-файлы вручную; создавайте каталоги заново с использованием исходного ключа подписи.
 
-Module API version: 1. The main application is the module host; it contains shared networking and interface helpers but does not contain the monitor or diagnostics module views. New module versions must preserve compatibility with the declared host API and minimum application version.
+Версия API модуля: 1. Основным приложением является хост-модуль; оно содержит общие сетевые интерфейсы и вспомогательные средства интерфейса, но не содержит представлений модуля мониторинга или диагностики. Новые версии модулей должны сохранять совместимость с заявленным API хоста и минимальной версией приложения.
